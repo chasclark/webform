@@ -86,7 +86,6 @@ input, textarea, select {
 input:focus, textarea:focus {
 	background: slategrey;	
 	color: white;
-	transition: .5;
 }
 
 label {
