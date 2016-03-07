@@ -42,7 +42,7 @@
 <input type="text" id="city">
 
 	<label for="state">State</label>
-	<select type="dropdown" id="state">
+	<select id="state">
 		<option>Choose State</option>
 		<option value="AL">Alabama</option>
 		<option value="AK">Alaska</option>
@@ -104,22 +104,22 @@
 <h3>Newsletter</h3>
 <p>Select Newsletter(s) To Receive</p>
 
-<input type="checkbox" name="newsletter[]" value="HTML News">
+<input type="checkbox" id="h-news" name="newsletter[]" value="HTML News">
 <label for="h-news">HTML News</label><br>
 
-<input type="checkbox" name="newsletter[]" value="CSS News">
-<label for="c-news"">CSS News</label><br>
+<input type="checkbox" id="c-news" name="newsletter[]" value="CSS News">
+<label for="c-news">CSS News</label><br>
 
-<input type="checkbox" name="newsletter[]" value="Javascript News">
+<input type="checkbox" id="j-news" name="newsletter[]" value="Javascript News">
 <label for="j-news">Javascript News</label>
 
 <p>Newsletter Format</p>
 
-<input type="radio" name="format" id="html-format"" value="HTML">
-<label for="h-format"">HTML</label><br>
+<input type="radio" name="format" id="html-format" value="HTML">
+<label for="html-format">HTML</label><br>
 
 <input type="radio" name="format" id="plain-format" value="Plain Text">
-<label for="p-format">Plain Text</label><br>
+<label for="plain-format">Plain Text</label><br>
 
 <p>Topic Suggestions?</p>
 <textarea id="topics" rows="5"></textarea>
