@@ -20,18 +20,15 @@
 	<h1>The Code Review</h1>
 </header>
 
-<div class="container">
-	
-<div class="intro">
-	<h2>Newsletter Signup</h2>
-	<p>Get the latest news on how your code is doing right in your inbox.</p>
-</div>
-
-<form class="form-news" action="/" method="post name="news">
+<form action="/" method="post" name="news">
 
 <fieldset>
+	
+<legend>Newsletter Signup</legend>
+	
+<p class="intro">Get the latest news on how your code is doing right in your inbox.</p>
 
-<legend>Contact Information</legend>
+<h3>Contact Information</h3>
 	
 <label for="name">Full Name</label>
 <input type="text" id="name" name="name" placeholder="Required" required>
@@ -127,7 +124,7 @@
 <input type="radio" name="format" id="plain-format" value="Plain Text">
 <label for="plain-format">Plain Text</label><br>
 
-<label>Topic Suggestions?</label>
+<label>Suggestions?</label>
 <textarea id="topics" name="topics" rows="5"></textarea>
 
 <input class="btn" type="submit" value="Sign Up">
@@ -135,8 +132,6 @@
 </fieldset>
 
 </form>
-
-</div><!--/ .container-->
 
 <footer><em>Copyright The Code Review</em></footer>
 
